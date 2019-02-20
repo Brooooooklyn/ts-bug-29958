@@ -12,3 +12,5 @@ but TypeScript inference the factory type to be
 (eventSource$: Observable<MouseEvent<HTMLButtonElement, MouseEvent>>, inputs$: Observable<number[]>, state$: Observable<number[]>) => Observable<number[]>
 ```
 while the `State` of `useEventCallback<EventValue, State, Inputs>` expect to be the typeof `initialValue` which in parameters
+
+Downgrade to typescript `3.1.6`, this bug disappear.
