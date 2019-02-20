@@ -1,0 +1,15 @@
+{
+  "name": "ts-bug-29958",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Brooooooklyn/ts-bug-29958.git",
+  "author": "LongYinan <lynweklm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-dom": "^16.8.2",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  }
+}
